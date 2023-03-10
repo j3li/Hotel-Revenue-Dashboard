@@ -37,6 +37,6 @@ ON meal_cost$.meal = hotels.meal
 **Columns & Quick Measures:**
 ```
 Revenue = ([stays_in_week_nights] + [stays_in_weekend_nights])*([adr]*(1-[Discount]))
-Total Nights = sum(Query1[stays_in_week_nights]) + sum(Query1[stays_in_weekend_nights])
+Total Nights = SUM(Query1[stays_in_week_nights]) + SUM(Query1[stays_in_weekend_nights])
 Parking Percentage = SUM(Query1[required_car_parking_spaces])/[Total Nights]
 ```
