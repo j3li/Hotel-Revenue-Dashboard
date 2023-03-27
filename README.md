@@ -9,7 +9,9 @@ This was used to answer questions such as:
 - Should we increase increase our parking lot size?
   - Are there more customers needing parking?
 - What are other trends that we can see?
-<br>
+
+**Skills Used:**  
+Power BI, Filters, Microsoft SQL Server, SQL, Data Cleaning, Data Visualization, Calculated Fields, Dynamic Dashboard
 
 **Query used to join tables for analysis and visualization:**
 ```sql
